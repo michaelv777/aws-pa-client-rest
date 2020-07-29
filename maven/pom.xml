@@ -1,0 +1,141 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aws.pa.client.rest</groupId>
+  <artifactId>aws-pa-client-rest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>aws-pa-client-rest</name>
+  <description>aws-pa-client-rest</description>
+  
+  <parent>
+  	<groupId>amp.framework</groupId>
+  	<artifactId>amp-framework</artifactId>
+  	<version>1.0-SNAPSHOT</version>
+  </parent>
+  
+  <build>
+   <finalName>aws-pa-client-rest</finalName>
+   
+    <plugins>
+        <plugin>
+	        <artifactId>aws-pa-client-rest</artifactId>
+	        <version>3.3</version>
+	        <configuration>
+	            <source>1.8</source>
+	            <target>1.8</target>
+	        </configuration>
+	  </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+  	
+  	
+  	<dependency>
+  		<groupId>axis</groupId>
+  		<artifactId>axis</artifactId>
+  		<version>1.4</version>
+  	</dependency>
+  	
+  	
+  	
+  	
+  	<dependency>
+    	<groupId>commons-codec</groupId>
+    	<artifactId>commons-codec</artifactId>
+    	<version>1.10</version>
+	</dependency>
+
+	 
+	<dependency>
+    	<groupId>commons-httpclient</groupId>
+    	<artifactId>commons-httpclient</artifactId>
+    	<version>3.1</version>
+	</dependency>
+	
+	
+	
+	<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+	<dependency>
+	    <groupId>commons-io</groupId>
+	    <artifactId>commons-io</artifactId>
+	    <version>2.4</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.12</version>
+	</dependency>
+
+	
+	<dependency>
+    	<groupId>log4j</groupId>
+    	<artifactId>log4j</artifactId>
+    	<version>1.2.17</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>org.opensaml</groupId>
+	    <artifactId>opensaml</artifactId>
+	    <version>2.6.4</version>
+	</dependency>
+	
+
+	<dependency>
+	    <groupId>xalan</groupId>
+	    <artifactId>serializer</artifactId>
+	    <version>2.7.2</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>xalan</groupId>
+	    <artifactId>xalan</artifactId>
+	    <version>2.7.1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>wsdl4j</groupId>
+	    <artifactId>wsdl4j</artifactId>
+	    <version>1.6.3</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>wss4j</groupId>
+	    <artifactId>wss4j</artifactId>
+	    <version>1.5.1</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.servicemix.bundles</groupId>
+	    <artifactId>org.apache.servicemix.bundles.xerces</artifactId>
+	    <version>2.11.0_1</version>
+	</dependency>
+	
+	
+	<dependency>
+	    <groupId>xml-apis</groupId>
+	    <artifactId>xml-apis</artifactId>
+	    <version>1.4.01</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.santuario</groupId>
+	    <artifactId>xmlsec</artifactId>
+	    <version>2.0.7</version>
+	    <exclusions>
+	            <exclusion>
+	                <groupId>org.slf4j</groupId>
+	                <artifactId>slf4j-api</artifactId>
+	             </exclusion>
+          </exclusions>
+	</dependency>
+	
+	<dependency>
+	    <groupId>dom4j</groupId>
+	    <artifactId>dom4j</artifactId>
+	    <version>1.6.1</version>
+	</dependency>
+	
+  </dependencies>
+</project>
